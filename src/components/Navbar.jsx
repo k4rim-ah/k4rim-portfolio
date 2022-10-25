@@ -16,7 +16,7 @@ let iconStyles = {color: '#edfe58' , fontSize: '1.5em'}
         </div>
         {/* menu container */}
         <div className='hidden md:flex'>
-            <ul className='hidden md:flex text-[#edfe58]'>
+            <ul className='hidden md:flex text-[#edfe58] text-2xl'>
                 <li>
                     <a href='/' >Home</a>
                 </li>
@@ -41,22 +41,20 @@ let iconStyles = {color: '#edfe58' , fontSize: '1.5em'}
             {!nav ? <FaBars style={iconStyles}/> :<FaTimes style={iconStyles}/> }
         </div>
         {/*mobile menu*/}
-        <ul className={!nav ? 'hidden' : '  absolute top-0 left-0 w-full h-screen bg-[#d731ff] text-[#edfe58] flex flex-col justify-center items-center' }>
-                <li  className='py-6 text-4xl hover:text-[#181818] '>
-                <li >
+        <ul className={!nav ? 'hidden' : '  absolute top-0 left-0 w-full h-screen opacity-95 bg-[#d731ff] text-[#edfe58] flex flex-col justify-center items-center' }>
+                <li  className='py-6 text-3xl hover:text-[#181818] '>
                     <a href='/'>Home </a>
                 </li>
-                </li>
-                <li className='py-6 text-4xl hover:text-[#181818]'>
+                <li className='py-6 text-3xl hover:text-[#181818]'>
                     <a href='/about'>About</a>
                 </li>
-                <li className='py-6 text-4xl hover:text-[#181818]'>
+                <li className='py-6 text-3xl hover:text-[#181818]'>
                     <a href='/services'>Services</a>
                 </li>
-                <li className='py-6 text-4xl hover:text-[#181818]'>
+                <li className='py-6 text-3xl hover:text-[#181818]'>
                     <a href='/work'>Works</a>
                 </li>
-                <li className='py-6 text-4xl hover:text-[#181818]'>
+                <li className='py-6 text-3xl hover:text-[#181818]'>
                     <a href='/contact'>Contacts</a>
                 </li>
         </ul>
