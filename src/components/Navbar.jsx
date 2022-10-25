@@ -7,29 +7,30 @@ import {Link, Outlet} from 'react-router-dom';
 const Navbar = () => {
     const [nav, setNav]=useState(false); 
     const handleClick = () => setNav(!nav);
+let iconStyles = {color: '#edfe58' , fontSize: '1.5em'}
   return (
     <>
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#d731ff] text-black-300'>
         <div> {/* logo container */}
-            <img src={Logo} alt='Logo Image' style={{width:'250px'}}/>
+            <div className='text-5xl text-[#edfe58] font-bold '>k4rim</div>
         </div>
         {/* menu container */}
         <div className='hidden md:flex'>
             <ul className='hidden md:flex text-[#edfe58]'>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <a href='/' >Home</a>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <a href='/about'>About</a>
                 </li>
                 <li>
-                    <Link to='/services'>Services</Link>
+                    <a href='/services'>Services</a>
                 </li>
                 <li>
-                    <Link to='/work'>Works</Link>
+                    <a href='/work'>Works</a>
                 </li>
                 <li>
-                    <Link to='/contact'>Contacts</Link>
+                    <a href='/contact'>Contacts</a>
                 </li>
             </ul>
         </div>
@@ -37,26 +38,26 @@ const Navbar = () => {
 
     {/*Hamburger*/}
         <div onClick={handleClick} className='md:hidden z-10'>
-            {!nav ? <FaBars style={{color:'yellow'}}/> :<FaTimes/> }
+            {!nav ? <FaBars style={iconStyles}/> :<FaTimes style={iconStyles}/> }
         </div>
         {/*mobile menu*/}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-violet-500 to-yellow-300 flex flex-col justify-center items-center' }>
-                <li  className='py-6 text-4xl'>
-                <li>
-                    <Link to='/'>Home</Link>
+        <ul className={!nav ? 'hidden' : '  absolute top-0 left-0 w-full h-screen bg-[#d731ff] text-[#edfe58] flex flex-col justify-center items-center' }>
+                <li  className='py-6 text-4xl hover:text-[#181818] '>
+                <li >
+                    <a href='/'>Home </a>
                 </li>
                 </li>
-                <li className='py-6 text-4xl'>
-                    <Link to='/about'>About</Link>
+                <li className='py-6 text-4xl hover:text-[#181818]'>
+                    <a href='/about'>About</a>
                 </li>
-                <li className='py-6 text-4xl'>
-                    <Link to='/services'>Services</Link>
+                <li className='py-6 text-4xl hover:text-[#181818]'>
+                    <a href='/services'>Services</a>
                 </li>
-                <li className='py-6 text-4xl'>
-                    <Link to='/work'>Works</Link>
+                <li className='py-6 text-4xl hover:text-[#181818]'>
+                    <a href='/work'>Works</a>
                 </li>
-                <li className='py-6 text-4xl'>
-                    <Link to='/contact'>Contacts</Link>
+                <li className='py-6 text-4xl hover:text-[#181818]'>
+                    <a href='/contact'>Contacts</a>
                 </li>
         </ul>
         {/*Social icons*/}
