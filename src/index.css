@@ -23,10 +23,6 @@
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right, /* put opacity and change colors*/
-        #000,
-        #ecfc58
-    )!important;
+    background: #b3b3b3 !important;
 }
 
