@@ -7,7 +7,7 @@ import M3 from '../assets/3M.webp'
 import topi from '../assets/topi.jpg'
 import mdma from'../assets/mdma.jpg'
 import silvio from '../assets/gruppomn.jpg'
-import me from '../assets/me.png'
+
 
 const Mario = () =>{
   return (

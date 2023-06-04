@@ -1,5 +1,5 @@
 import React from 'react'
-{/**GrDocumentPdf */}
+
 
 const Work = () => {
   return (
@@ -17,7 +17,7 @@ const Work = () => {
                      <p className='flex mx-auto text-grey-200 text-xl font-bold '>IRCCS MARIO NEGRI</p>
                      </div>
                     </div></a>
-                    
+                    {/**GrDocumentPdf */}
                    
                     <a href='/work/giusti'> <div className=' bg-gray-300 flex  h-[10vh] md:h-[20vh] rounded-lg'>
                      <div className='grid grid-rows-2 m-auto'>

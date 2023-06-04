@@ -24,11 +24,11 @@ return (
   <Route path="contact" element={<Contact />} />
   <Route path="work/marionegri" element={<Mario />} />
   <Route path="work/giusti" element={<Giusti />} />
+  <Route path="/" element={<Footer />}></Route>
   </Route>
 
 </Routes>
-{/*footer */}
-<Footer />
+
 </>
 )
 }

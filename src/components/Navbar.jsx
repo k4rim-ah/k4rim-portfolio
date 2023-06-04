@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png';
-import {Link, Outlet} from 'react-router-dom';
+import { Outlet} from 'react-router-dom';
 import Resume from '../assets/resume.pdf'
 const Navbar = () => {
     const [nav, setNav]=useState(false); 
