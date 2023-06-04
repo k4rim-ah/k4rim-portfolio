@@ -8,44 +8,44 @@ import Tailwind from '../assets/tailwind.png';
 
 const Servoffered = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#181818] text-[#ff0000] '>
+    <div name='skills' className='lg:h-screen bg-[#181818] text-zinc-200 '>
         {/*container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center '>
-            <p className='text-4xl  font-bold inline border-b-4 border-[#ff0000]'>Skills</p>
-            <p className='py-4'>These are thecnologies I work with</p>
+        <div className='lg:w-[20vw] mx-auto p-4 flex flex-col text-center justify-center '>
+            <p className='text-4xl  font-bold inline underline underline-offset-8'>Skills</p>
+            <p className='py-4 text-xl text-zinc-200 opacity-70 z-0'>These are thecnologies I work with</p>
         </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-                <p className='my-4'>HTML</p>
+        <div className='w-[screen] lg:w-[70vw] grid grid-cols-2  gap-10 lg:grid-cols-4 lg:gap-32 m-auto text-center py-8 place-items-center'>
+            <div className='w-52 shadow-md shadow-zinc-200 rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4 mx-auto' src={HTML} alt='HTML icon' />
+                <p className='my-4 font-bold'>HTML</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={CSS} alt='CSS icon' />
-                <p className='my-4'>CSS</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4  mx-auto' src={CSS} alt='CSS icon' />
+                <p className='my-4 font-bold'>CSS</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={JavaScript} alt='Javscript icon' />
-                <p className='my-4'>JavaScript</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4  mx-auto' src={JavaScript} alt='Javscript icon' />
+                <p className='my-4 font-bold'>JavaScript</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={Tailwind} alt='Tailwind icon' />
-                <p className='my-4'>tailwind</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4  mx-auto' src={Tailwind} alt='Tailwind icon' />
+                <p className='my-4 font-bold'>tailwind</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={Github} alt='HTML icon' />
-                <p className='my-4'>HTML</p>
+            <div className='w-52 shadow-md shadow-zinc-200 rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4 mx-auto' src={Github} alt='HTML icon' />
+                <p className='my-4 font-bold'>HTML</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
-                <p className='my-4'>React</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4 mx-auto' src={ReactImg} alt='React icon' />
+                <p className='my-4 font-bold'>React</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-                <p className='my-4'>HTML</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4 mx-auto' src={HTML} alt='HTML icon' />
+                <p className='my-4 font-bold'>HTML</p>
             </div>
-            <div className='shadow-md shadow-[#ff0000] rounded-lg hover:scale-110 duration-500 '>
-                <img className='w-20 mx-auto' src={HTML} alt='HTML icon' />
-                <p className='my-4'>HTML</p>
+            <div className='w-52 shadow-md shadow-zinc-200  rounded-lg hover:scale-110 duration-500 '>
+                <img className='w-24 my-4 mx-auto' src={HTML} alt='HTML icon' />
+                <p className='my-4 font-bold'>HTML</p>
             </div>
         </div>
     </div>
