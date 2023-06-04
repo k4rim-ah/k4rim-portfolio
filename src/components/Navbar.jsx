@@ -39,7 +39,7 @@ let iconStyles = {color: '#ffff' , fontSize: '1.6rem'}
                     <a href='/work'>Works</a>
                 </li>          
                 <li className='hover:text-[#242424] hover:font-bold'>
-                    <a href='/contact'>Contacts</a>
+                    <a href='/contact'>Contact Me</a>
                 </li>
             </ul>
         </div>
@@ -70,7 +70,7 @@ let iconStyles = {color: '#ffff' , fontSize: '1.6rem'}
                     <a href='/work'>Works</a>
                 </li>
                 <li className='py-6 text-3xl hover:text-white'>
-                    <a href='/contact'>Contacts</a>
+                    <a href='/contact'>Contact Me</a>
                 </li>
         </ul>
         {/*Social icons*/}

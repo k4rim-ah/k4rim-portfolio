@@ -11,9 +11,10 @@ import silvio from '../assets/gruppomn.jpg'
 
 const Mario = () =>{
   return (
-  <div class=' w-full  bg-[#181818] text-[#ffff] scroll-smooth'>
-     {/*title container*/}
-     <div class=' justify-center place-items-center flex '>
+  <div class=' w-full  bg-[#181818] text-[#ffff] scroll-smooth flex justify-center place-items-center pb-12'>
+    <div class='grid grid-rows-7 w-[80vw] gap-32'>
+{/*title container*/}
+     <div class=' '>
       <div class=' lg:row-span-full  row-span-1 mx-auto w-full justify-center flex  '>
         <div class='grid grid-rows-2 py-12 '>
           <p class='text-center py-2 text-3xl md:text-4xl font-bold decoration-4 underline underline-offset-8'>PCTO - ATTIVITÀ DI RICERCA PRESSO IRCCS MARIO NEGRI</p>
@@ -51,9 +52,9 @@ const Mario = () =>{
     
 {/** Peptidi */}
 
-      <div class='h-screen md:h-[140vh] lg:h-screen flex justify-center place-items-center '>
+      <div class=' '>
         <div class=' w-[80vw]  grid grid-rows-2 lg:grid-cols-2
-         gap-4 lg:my-12 bg-black rounded-xl ]'>
+         gap-4  bg-black rounded-xl '>
         <div class='row-span-full place-items-center flex justify-center p-4'>
         <img src={Biot} className='  rounded-lg
          flex w-[80vw] md:w-[60vw] lg:[40vw] ' alt='Biotage Synthetizer'></img>
@@ -88,7 +89,7 @@ const Mario = () =>{
       </div>
 
 {/** Nanoparticelle */}
- <div class='h-screen md:h-[110vh] lg:h-screen'>
+ <div class=''>
     <div class='  flex justify-center 
    place-items-center '>
         <div class=' bg-black rounded-xl w-[80vw]  grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 place-items-center lg:gap-4'>
@@ -100,7 +101,7 @@ const Mario = () =>{
                 </div>
             </div>
             <div class='  flex place-items-center'>
-              <div class=' md:px-12 md:pb-4 text-justify text-[1rem] md:text-[1.2rem] '>
+              <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem] '>
                   <p class=''>All'interno del laboratorio del dr. Paolo Bigini, si sono svolte ricerche sulla somministrazione di farmaci
                    attraverso nanoparticelle e sugli effetti dei vaccini anti-Covid. </p>
                   <p class=''>Attività:
@@ -132,7 +133,7 @@ const Mario = () =>{
       </div>
       </div>
 {/**Database */}
-      <div class='flex justify-center place-items-center h-screen lg:h-[70vh] mb-[10vh] '>
+      <div class=''>
         <div class=' bg-black rounded-xl w-[80vw] grid grid-rows-2 lg:grid-cols-2 md:gap-4'>
           <div  class=' flex place-items-center  lg:row-span-full'>
             <img src={Datab} alt='database sample' class='md:w-[70%] lg:w-full py-2 flex md:mx-auto'></img>
@@ -146,7 +147,7 @@ const Mario = () =>{
                 </div>
             </div>
             <div class=' row-span-1 '>
-              <div class='px-12  text-justify text-[1rem] md:text-[1.2rem]'>
+              <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>
                   <p class=''>Nelle ultime settimane ho avuto l'occasione di creare un database tramite MS Acess per
                   l'archiviazione dei peptidi prodotti e segnalare la loro disponibilità in Istituto, l'esigenza era quella di 
                   avere una piattaforma che fosse facilmente consultabile e aggiornabile, che potesse facilitare e 
@@ -158,7 +159,7 @@ const Mario = () =>{
         </div>
       </div>
 {/**Seminari */}  
-      <div class='h-[280vh] lg:h-[120vh] flex justify-center place-items-center text-justify'>
+      <div class='text-justify'>
         <div class='w-[80vw] md:w-[70vw] lg:w-[80vw]'>
           <div>
             <p class='font-bold text-[1.5rem] md:text-[2rem] text-center decoration-4 underline uderline-offset-4 mb-14'>Attività Extra</p>
@@ -167,7 +168,7 @@ const Mario = () =>{
                   <div>
                     <img src={mdma} alt='mdma effects' class='p-2 rounded-xl  '></img>
                   </div>
-                <div ><span class=' bg-gray-500 font-bold '>Incontri formativi</span>
+                <div class='p-4 md:p-12 lg:p-8'><span class=' bg-gray-500 font-bold '>Incontri formativi</span>
                 : circa tre volte a settimana, noi summer students ci riunivamo dopo la pausa pranzo, per l'appuntamento fisso in cui 
                   i ricercatori dell'Istituto hanno tenuto incontri su diversi argomenti come l'abuso di sostanze e i loro effetti sul corpo, 
                   le malattie psichiatriche, la prevenzione e l'importanza della ricerca del cancro e delle malattie rare, biotecnologie 
@@ -178,7 +179,7 @@ const Mario = () =>{
                   <div>
                     <img src={M3} alt='innovation center 3M' class='p-2 rounded-xl '></img>
                   </div>
-                  <div>
+                  <div class='p-4 md:p-12 lg:p-8'>
                   <span class=' bg-gray-500 font-bold '>
                   Visita all'Innovation Center 3M a Milano</span>: il 4 Luglio abbiamo avuto l'opportunità di visitare l'headquarter italiano di una delle più
                   grandi multinazionali americane che si occupa della produzione di dispositivi di protezione individuale, adesivi, abrasivi, pellicole rifrangenti;
@@ -190,14 +191,14 @@ const Mario = () =>{
                 <div>
                   <img src={silvio} alt='Group photo with silvio garattini' class='p-2 rounded-xl'></img>
                 </div>
-                <div ><span class=' bg-gray-500 font-bold '>Incontro con il fondatore dell'Istituto Silvio Garattini</span>: durante la permanenza in Istituto abbiamo incontrato il dr. Garattini, attuale presidente
+                <div class='p-4 md:p-12 lg:p-8'><span class=' bg-gray-500 font-bold '>Incontro con il fondatore dell'Istituto Silvio Garattini</span>: durante la permanenza in Istituto abbiamo incontrato il dr. Garattini, attuale presidente
                   e fondatore del Mario Negri che ci ha spiegato la nascita e l'evoluzione dell'Istituto, il significato della ricerca e della politica di non-brevetto. 
                   Successivamente abbiamo conosciuto l'attuale direttore dr. Giuseppe Remuzzi che ci ha illustrato il lavoro che viene svolto nella sede di Bergamo. 
                 </div>
                 </div>
                 <div class='p-2 bg-black rounded-xl  lg:my-0 mt-16 '>
                 <img src={topi} alt='mouse tests' class='p-2 rounded-xl '></img>
-                <div ><span class=' bg-gray-500 font-bold '>Visita allo stabulario dell'Istituto</span>: dopo un incontro preparativo in cui 
+                <div class='p-4 md:p-12 lg:p-8' ><span class=' bg-gray-500 font-bold '>Visita allo stabulario dell'Istituto</span>: dopo un incontro preparativo in cui 
                 ci hanno spiegato tutti i protocolli seguiti nella sperimentazione animale, abbiamo visitato lo stabulario, gli animali su cui si svolgono
                 le ricerche sono topi e ratti, è stato uno dei momenti più intensi e straordinari in Istituto, ho capito che ad ogggi la ricerca su modelli 
                 animali sia fondamentale e difficoltosa, ci vuole una grande responsabilità, tenendo sempre a mente la prima regola 
@@ -213,28 +214,28 @@ const Mario = () =>{
       </div>
       
 {/*Conclusioni*/ }
-<div class='h-[170vh] lg:h-screen flex place-items-center justify-center'>
+<div class=''>
   <div class='w-[80vw]'>
   <div class=''>
-    <p class='font-bold text-[1.5rem] md:text-[2rem] text-center decoration-4 underline uderline-offset-4 '>Conclusioni</p>
+    <p class='font-bold text-[1.5rem] md:text-[2rem] text-center decoration-4 underline uderline-offset-4 py-6'>Conclusioni</p>
   </div>
   <div class='text-justify text-[1rem] md:text-[1.2rem]'>
-   <div class='lg:grid lg:grid-cols-3 place-items-center lg:gap-6'>
-    <div class='p-2 bg-black rounded-xl  lg:my-0 my-16 '><span class=' bg-gray-500 font-bold '>Punti di forza</span>
+   <div class='grid gap-6 lg:grid-cols-3 place-items-center '>
+    <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl  '><span class=' bg-gray-500 font-bold '>Punti di forza</span>
     <div>L'esperienza di alternanza è stata uno dei momenti più formativi della mia vita da studente e personale, ho capito 
       come funziona il lavoro di un ricercatore sotto tanti punti di vista, la dedizione e lo studio costante che richiede 
       questo mestiere che è un vero e proprio stile di vita. Ho appreso diversi protocolli di laboratorio e il funzionamento delle
       apparecchiature di laboratorio, 
     </div>
     </div>
-    <div class='p-2 bg-black rounded-xl  lg:my-0 my-16 '><span class=' bg-gray-500 font-bold '>Punti di debolezza</span>
+    <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl   '><span class=' bg-gray-500 font-bold '>Punti di debolezza</span>
       <div>Non ho individuato delle vere criticità nella mia esperienza, l'organizzazione è stata molto curata 
         in tutte le attività svolte, la durata del progetto è lunga e viene svolto nel periodo estivo, inizialmente
         questa idea mi ha intimorito pensando che sarebbe stato molto difficile e faticoso passare tutte le giornate in Istituto 
         ma alla fine ne è valsa la pensa e lo rifarei certamente. 
       </div>
     </div>
-    <div class='p-2 bg-black rounded-xl  lg:my-0 my-16 '><span class=' bg-gray-500 font-bold '>Ringraziamenti</span>
+    <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl   '><span class=' bg-gray-500 font-bold '>Ringraziamenti</span>
     <div>
       Ringrazio il mio tutor Mario Salmona per essere stato un vero maestro di vita con il suo forte entusiasmo anche dopo un'intera vita 
       di ricerca  e la sua mente straordinaria, ha lasciato in me un ricordo indelebile. Ringrazio Alfredo Cagnotto, il mio tutor nel laboratorio 
@@ -248,6 +249,7 @@ const Mario = () =>{
     </div> 
   </div>
   </div>
+</div>
 </div>
   </div>
 

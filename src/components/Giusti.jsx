@@ -18,7 +18,7 @@ export const Giusti = () => {
       <div class='grid lg:grid-cols-2 w-[80vw] bg-black rounded-xl place-items-center'>
       <div class=' mx-auto py-4 lg:py-0 place-items-center'>
           <p class=' font-bold text-[1.5rem] md:text-[2rem] text-center '>Introduzione</p>
-            <p class='  lg:w-[30vw] md:px-4 text-[1rem] md:text-[1.2rem] text-justify '>
+            <p class='  lg:w-[30vw] px-12 text-[1rem] md:text-[1.2rem] text-justify '>
             Durante il periodo di alternanza scuola lavoro 2020-2021 ho partecipato a un progetto, 
             riguardante la realizzazione di un docu-film sulla storia dei Giusti desiani, 
             organizzato dalle docenti Barile e Milicia, promosso dall’ente comunale Hub Desio che si occupa di creare un collegamento 
