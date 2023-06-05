@@ -7,8 +7,9 @@ import Contact from './components/Contact';
 import Mario from './components/Mario';
 import Giusti from './components/Giusti';
 import Footer from './components/Footer';
-
+import Extra from './components/Extra';
 import {Routes, Route} from 'react-router-dom'
+
 
 
 
@@ -24,6 +25,7 @@ return (
   <Route path="contact" element={<Contact />} />
   <Route path="work/marionegri" element={<Mario />} />
   <Route path="work/giusti" element={<Giusti />} />
+  <Route path="work/extra" element={<Extra />} />
   </Route>
 
 </Routes>  

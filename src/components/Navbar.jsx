@@ -8,7 +8,7 @@ import Resume from '../assets/resume.pdf'
 const Navbar = () => {
     const [nav, setNav]=useState(false); 
     const handleClick = () => setNav(!nav);
-let iconStyles = {color: '#ffff' , fontSize: '1.6rem'}
+let iconStyles = {color: '#ffff' , fontSize: '1.6rem',}
   return (
     <>
    
@@ -39,7 +39,7 @@ let iconStyles = {color: '#ffff' , fontSize: '1.6rem'}
                     <a href='/work'>Works</a>
                 </li>          
                 <li className='hover:text-[#242424] hover:font-bold'>
-                    <a href='/contact'>Contact Me</a>
+                    <a href='/contact'>Contact</a>
                 </li>
             </ul>
         </div>
@@ -56,20 +56,20 @@ let iconStyles = {color: '#ffff' , fontSize: '1.6rem'}
         </div>
         
         {/*mobile menu*/}
-        <ul className={!nav ? 'hidden' : '  left-0 w-full  font-semibold h-screen  bg-[#b3b3b3c0] backdrop-blur-sm text-[#ffff] flex flex-col  items-center z-1 fixed' }>
-                <li  className='py-6 text-3xl hover:text-white '>
+        <ul className={!nav ? 'hidden' : ' pt-32 top-0 left-0 w-full  font-semibold h-screen bg-[#b3b3b3c0] backdrop-blur-sm text-[#ffff] flex flex-col  items-center z-1 fixed ' }>
+                <li  className='py-6 text-3xl hover:text-[#242424] '>
                     <a href='/'>Home </a>
                 </li>
-                <li className='py-6 text-3xl hover:text-white'>
+                <li className='py-6 text-3xl hover:text-[#242424]'>
                     <a href='/about'>About</a>
                 </li>
-                <li className='py-6 text-3xl hover:text-white'>
+                <li className='py-6 text-3xl hover:text-[#242424]'>
                     <a href='/services'>Skills</a>
                 </li>
-                <li className='py-6 text-3xl hover:text-white'>
+                <li className='py-6 text-3xl hover:text-[#242424]'>
                     <a href='/work'>Works</a>
                 </li>
-                <li className='py-6 text-3xl hover:text-white'>
+                <li className='py-6 text-3xl hover:text-[#242424]'>
                     <a href='/contact'>Contact Me</a>
                 </li>
         </ul>

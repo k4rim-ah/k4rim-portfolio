@@ -12,11 +12,11 @@ import silvio from '../assets/gruppomn.jpg'
 const Mario = () =>{
   return (
   <div class=' w-full  bg-[#181818] text-[#ffff] scroll-smooth flex justify-center place-items-center pb-12'>
-    <div class='grid grid-rows-7 w-[80vw] gap-32'>
+    <div class='grid grid-rows-7 w-[80vw] gap-12'>
 {/*title container*/}
      <div class=' '>
       <div class=' lg:row-span-full  row-span-1 mx-auto w-full justify-center flex  '>
-        <div class='grid grid-rows-2 py-12 '>
+        <div class='grid grid-rows-2 py-4'>
           <p class='text-center py-2 text-3xl md:text-4xl font-bold decoration-4 underline underline-offset-8'>PCTO - ATTIVITÀ DI RICERCA PRESSO IRCCS MARIO NEGRI</p>
           <div class='text-xl md:text-2xl text-center font-bold text-[#b3b3b3] '>
             <p>Dipartimento di Biochimica e Chimica delle Proteine</p>
@@ -30,7 +30,7 @@ const Mario = () =>{
         <div class='grid  grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 place-items-center'>
           <div class=' mx-auto py-4 m:py-0'>
           <p class=' font-bold text-[1.5rem] md:text-[2rem] text-center '>Introduzione</p>
-            <p class='  lg:w-[30vw] px-12 text-[1rem] md:text-[1.2rem] text-justify '>
+            <p class='  lg:w-[30vw] p-4 md:p-12 lg:p-8  text-[1rem] md:text-[1.2rem] text-justify '>
             Nei mesi di Giugno e Luglio 2022, alla fine del IV anno ho trascorso sette settimane
             nell'Istituto di Ricerca Mario Negri a Milano. <br></br>
             Con il progetto "Summer Students", il Mario Negri da diversi anni accoglie circa 15 studenti, inserendoli nei diversi
@@ -101,7 +101,7 @@ const Mario = () =>{
                 </div>
             </div>
             <div class='  flex place-items-center'>
-              <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem] '>
+              <div class='p-4 md:p-12 lg:p-8 text-left md:text-justify text-[1rem] md:text-[1.2rem] '>
                   <p class=''>All'interno del laboratorio del dr. Paolo Bigini, si sono svolte ricerche sulla somministrazione di farmaci
                    attraverso nanoparticelle e sugli effetti dei vaccini anti-Covid. </p>
                   <p class=''>Attività:
@@ -134,12 +134,12 @@ const Mario = () =>{
       </div>
 {/**Database */}
       <div class=''>
-        <div class=' bg-black rounded-xl w-[80vw] grid grid-rows-2 lg:grid-cols-2 md:gap-4'>
-          <div  class=' flex place-items-center  lg:row-span-full'>
-            <img src={Datab} alt='database sample' class='md:w-[70%] lg:w-full py-2 flex md:mx-auto'></img>
+        <div class=' bg-black rounded-xl w-[80vw] grid grid-rows-2 lg:grid-cols-2 md:gap-4  '>
+          <div  class=' flex place-items-center  justify-center row-span-full'>
+            <img src={Datab} alt='database sample' class='md:w-[70%] w-[60%] lg:w-full py-2 flex md:mx-auto'></img>
           </div>
-        <div class='row-span-full flex place-items-center'>
-          <div class='grid-rows-2 grid  '>
+        <div class=' lg:row-span-full flex place-items-center'>
+          <div class='grid-rows-2 grid   '>
             <div class='row-span-full  '>
               <div class='  grid grid-rows-2 font-bold text-[1.5rem] md:text-[2rem] text-center '>
                   <div class='row-span-full'><p class=' decoration-4 underline uderline-offset-4 ' >Attività svolte</p></div>

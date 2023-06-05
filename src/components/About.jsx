@@ -4,7 +4,7 @@ import Me from '../assets/About.jpg'
 const About = () => {
   return (
     <div name='about' className=' w-full lg:h-screen h-[130vh] bg-[#181818] flex  justify-center place-items-center'>
-        <div class=' w-[80vw] md:w-[50vw] grid grid-rows-2  lg:grid-rows-1 lg:grid-cols-2 place-items-center '>
+        <div class=' w-[80vw] md:w-[50vw] lg:w-[70vw] grid grid-rows-2  lg:grid-rows-1 lg:grid-cols-2 place-items-center '>
             <div className=' flex items-center justify-center p-2'>
                 <img src={Me} class=' rounded-lg  w-full   flex items-center justify-center' alt='me'></img>
             </div>        
@@ -15,10 +15,10 @@ const About = () => {
                 </div>
                 <div className='lg:p-12'>
                     <p className='text-l md:text-xl text-justify text-white'> Tech has been my passion since childhood, student in a high school of applied sciences, 
-                        matriculated for the faculty of Computer Engineering at Politecnico di Milano, 
+                        matriculated for the faculty of Computer Engineering at Politecnico of Milano, 
                         I began my way from web developer at the age of sixteen, 
                         my favorite language is JavaScript for its versatility and its frameworks. 
-                        This web portfolio is entirely designed and developed with ReactJS and TailwindCSS.</p>
+                        This web portfolio is entirely designed and developed with ReactJSX and TailwindCSS.</p>
                 </div>
                 </div>
                 </div>

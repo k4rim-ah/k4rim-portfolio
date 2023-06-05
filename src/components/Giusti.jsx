@@ -14,11 +14,11 @@ export const Giusti = () => {
         </div>
         </div>
       </div>
-      <div class='flex justify-center place-items-center text-[#ffff] '>
+      <div class='flex justify-center place-items-center text-[#ffff] my-12 '>
       <div class='grid lg:grid-cols-2 w-[80vw] bg-black rounded-xl place-items-center'>
       <div class=' mx-auto py-4 lg:py-0 place-items-center'>
           <p class=' font-bold text-[1.5rem] md:text-[2rem] text-center '>Introduzione</p>
-            <p class='  lg:w-[30vw] px-12 text-[1rem] md:text-[1.2rem] text-justify '>
+            <p class='  lg:w-[30vw] p-4 md:p-12 lg:p-8 text-[1rem] md:text-[1.2rem] text-justify '>
             Durante il periodo di alternanza scuola lavoro 2020-2021 ho partecipato a un progetto, 
             riguardante la realizzazione di un docu-film sulla storia dei Giusti desiani, 
             organizzato dalle docenti Barile e Milicia, promosso dall’ente comunale Hub Desio che si occupa di creare un collegamento 
@@ -30,17 +30,17 @@ export const Giusti = () => {
         </div>
       </div>
       </div>
-      <div class='flex justify-center place-items-center'>
+      <div class='flex justify-center place-items-center my-12'>
       <div class=' mt-[10vh]  w-[80vw]'>
-        <div class='grid lg:grid-cols-3 place-items-center gap-4'>
+        <div class='grid lg:grid-cols-3 place-items-center gap-12'>
           <div class='rounded-lg bg-black text-[#ffff]'>
             <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '> Attività svolte</div>
-            <div class='px-12  text-justify text-[1rem] md:text-[1.2rem]'>L’alternanza si è svolta all’interno del nostro istituto supervisionato dalla nostra Tutor Milicia.
+            <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>L’alternanza si è svolta all’interno del nostro istituto supervisionato dalla nostra Tutor Milicia.
                Il lavoro è stato svolto da quattro studenti, divisi per coppie, delle classi 3T e 4T.
                 Le principali mansioni svolte sono state la raccolta di materiali e di informazioni utili
                  per avere una chiara comprensione dell’argomento del documentario, la realizzazione di un
-                  photobook con la piattaforma di impaginazione professionale di Adobe InDesign, le riprese
+                photobook con la piattaforma di impaginazione professionale Adobe InDesign, le riprese
                    della testimonianza della signora Agostina Tagliabue, nipote del Giusto desiano Luigi Tagliabue,
                     il montaggio del docu-film tramite l’applicazione di editing Adobe Premiere Pro. </div>
           </div>
@@ -49,7 +49,7 @@ export const Giusti = () => {
           <div class='text-[#ffff] rounded-lg bg-black'>
           <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '>Punti di forza</div>
-            <div class='px-12  text-justify text-[1rem] md:text-[1.2rem]'> Il tempo per svolgere questo progetto è stato uno dei punti forti dell’alternanza. La nostra tutor
+            <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'> Il tempo per svolgere questo progetto è stato uno dei punti forti dell’alternanza. La nostra tutor
                ci ha incluso nella decisione dei nostri orari senza imporci particolari limiti e lasciandoci molta flessibilità,
               ciò è stato fondamentale per poter lavorare in tranquillità e puntare sulla qualità del lavoro. 
               Questa esperienza è stata molto utile perché mi ha aiutato ad approfondire la passione per il mondo
@@ -67,7 +67,7 @@ export const Giusti = () => {
           <div class='text-[#ffff] rounded-lg bg-black'>
           <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '>Conclusioni</div>
-            <div class='px-12  text-justify text-[1rem] md:text-[1.2rem]'>
+            <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>
                Oltre le conoscenze informatiche apprese nel corso dell’alternanza, abbiamo assistito 
               alla testimonianza della storia di uno dei Giusti di Desio, è stato molto toccante ascoltare
               la Signora che ci ha raccontato la storia di suo nonno e della famiglia che ha salvato, 
