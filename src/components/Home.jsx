@@ -25,7 +25,7 @@ const Home = () => {
                     <div class='grid lg:grid-cols-4
              gap-12 mt-12  w-[70vw] lg:w-[90vw] place-items-center'>
                     <div>
-                  <a href='/work/about'> 
+                  <a href='/about'> 
                         <div className=' h-fit bg-black rounded-lg hover:bg-[#b3b3b3] hover:text-black'>
                         <div className='  m-auto'>
                                 <img src={Me} class=' w-[200vh] h-54  lg:h-60 object-fill rounded-t-xl' alt='Giardino giusti'></img> 
