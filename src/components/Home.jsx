@@ -18,9 +18,10 @@ const Home = () => {
                 </div>
                 
                 {/**Highlights  */}
-                <div class=''>
-                  <div class='text-center text-3xl md:text-4xl font-bold decoration-4 underline underline-offset-8 text-white pt-4'>Highlights</div>
-
+                <div class=' '>
+                  
+                  <div class='text-center text-3xl md:text-4xl font-bold  text-white pt-4 underline underline-offset-8 decoration-4'>Highlights</div>
+                
                   <div class='flex justify-center place-items-center py-4'>
                     <div class='grid lg:grid-cols-4
              gap-12 mt-12  w-[70vw] lg:w-[90vw] place-items-center'>

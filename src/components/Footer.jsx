@@ -7,9 +7,9 @@ const year = 'June 2023';
 export const Footer = () => {
   return (
     
-    <div class='bg-[#6d6d6d] '>
+    <div class='bg-[#6d6d6d]  '>
   <div class='grid grid-rows-3 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 text-white text-[1rem] md:text-[1.2rem]
-   font-semibold py-6 items-center md:items-start'>
+   font-semibold py-6 items-center md:items-start '>
 
     <div class=''>
       <div class='mb-4 w-full text-center text-[120%]'>My Portfolio</div>

@@ -21,7 +21,7 @@ export const Giusti = () => {
             <p class='  lg:w-[30vw] p-4 md:p-12 lg:p-8 text-[1rem] md:text-[1.2rem] text-justify '>
             Durante il periodo di alternanza scuola lavoro 2020-2021 ho partecipato a un progetto, 
             riguardante la realizzazione di un docu-film sulla storia dei Giusti desiani, 
-            organizzato dalle docenti Barile e Milicia, promosso dall’ente comunale Hub Desio che si occupa di creare un collegamento 
+            organizzato dalle docenti Federica Barile e Annamaria Milicia, promosso dall’ente comunale Hub Desio che si occupa di creare un collegamento 
             tra i giovani e il territorio.  
             </p>
             </div>
@@ -36,7 +36,7 @@ export const Giusti = () => {
           <div class='rounded-lg bg-black text-[#ffff]'>
             <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '> Attività svolte</div>
-            <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>L’alternanza si è svolta all’interno del nostro istituto supervisionato dalla nostra Tutor Milicia.
+            <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>L’alternanza si è svolta all’interno del nostro istituto, con la supervisione della nostra Tutor Milicia.
                Il lavoro è stato svolto da quattro studenti, divisi per coppie, delle classi 3T e 4T.
                 Le principali mansioni svolte sono state la raccolta di materiali e di informazioni utili
                  per avere una chiara comprensione dell’argomento del documentario, la realizzazione di un
@@ -50,10 +50,10 @@ export const Giusti = () => {
           <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '>Punti di forza</div>
             <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'> Il tempo per svolgere questo progetto è stato uno dei punti forti dell’alternanza. La nostra tutor
-               ci ha incluso nella decisione dei nostri orari senza imporci particolari limiti e lasciandoci molta flessibilità,
-              ciò è stato fondamentale per poter lavorare in tranquillità e puntare sulla qualità del lavoro. 
-              Questa esperienza è stata molto utile perché mi ha aiutato ad approfondire la passione per il mondo
-               dell’editing e dell’impaginazione, inizialmente avendo una conoscenza molto limitata degli ambienti di montaggio
+               ci ha dato la possibilità di organizzare da soli i  nostri orari di lavoro, senza imporci particolari limiti e lasciandoci molta flessibilità.
+              Questo approccio è stato fondamentale per poter lavorare in tranquillità e puntare sulla qualità del lavoro. 
+              L'esperienza è stata molto utile perché mi ha aiutato ad approfondire la passione per il mondo
+               dell’editing e dell’impaginazione. In principio avevo una conoscenza molto limitata degli ambienti di montaggio,
                 ero spaventato dal lavoro che avrei dovuto fare, ma grazie a un corso online ho appreso tutto ciò che c’era
                  da sapere per la realizzazione del documentario. Non è stato facile ma sono molto contento di essermi messo alla 
                  prova con una sfida così grande. L’alternanza ha aiutato anche a creare un bellissimo rapporto con la nostra 
@@ -68,13 +68,12 @@ export const Giusti = () => {
           <div class='py-6'>
             <div class='font-bold text-[1.5rem] md:text-[2rem] text-center '>Conclusioni</div>
             <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>
-               Oltre le conoscenze informatiche apprese nel corso dell’alternanza, abbiamo assistito 
-              alla testimonianza della storia di uno dei Giusti di Desio, è stato molto toccante ascoltare
-              la Signora che ci ha raccontato la storia di suo nonno e della famiglia che ha salvato, 
-              questa esperienza mi è servita a ricordare quanto il fascismo abbia toccato e stravolto la vita 
+               Oltre alle conoscenze informatiche apprese nel corso dell’alternanza, abbiamo ascoltato 
+              Agostina che ci ha raccontato la storia di suo nonno - Luigi Tagliabue, Giusto desiano - e della famiglia che lui ha salvato. È stato molto toccante ascoltare
+              questa storia, mi è servito a ricordare quanto il fascismo abbia toccato e stravolto la vita 
               delle persone e a comprendere che le cose che ci sembrano più assurde e lontane da noi, sono successe
                in tempi non così lontani.  
-              Certamente non mi dimenticherò mai delle conoscenze che ho appreso in questo stage, 
+              Certamente non  dimenticherò mai di quanto appreso in questo stage, 
               sono felice di poter dire che è stata una esperienza molto positiva sia a livello scolastico
                che personale, è stato molto stimolante poter lavorare in un ambiente che fosse serio ma al tempo 
                stesso sereno e motivante. 

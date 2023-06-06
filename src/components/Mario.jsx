@@ -31,12 +31,12 @@ const Mario = () =>{
           <div class=' mx-auto py-4 m:py-0'>
           <p class=' font-bold text-[1.5rem] md:text-[2rem] text-center '>Introduzione</p>
             <p class='  lg:w-[30vw] p-4 md:p-12 lg:p-8  text-[1rem] md:text-[1.2rem] text-justify '>
-            Nei mesi di Giugno e Luglio 2022, alla fine del IV anno ho trascorso sette settimane
-            nell'Istituto di Ricerca Mario Negri a Milano. <br></br>
+            Nei mesi di giugno e luglio 2022, alla fine del IV anno ho trascorso sette settimane
+            nell'Istituto di Ricerca Mario Negri di Milano. <br></br>
             Con il progetto "Summer Students", il Mario Negri da diversi anni accoglie circa 15 studenti, inserendoli nei diversi
-            laboratori dell'Istituto assegnandoli ad un tutor. 
+            laboratori dell'Istituto e assegnandoli ad un tutor. 
             Come studente delle scuole superiori ho avuto la possibilità di seguire in prima linea 
-            diversi progetti di ricerca nel campo della sperimentazione farmacologica gestiti dal mio 
+            diversi progetti di ricerca nel campo della sperimentazione farmacologica, gestiti dal mio 
             Tutor dr. Mario Salmona. <br></br>
             </p>
             </div>
@@ -76,8 +76,8 @@ const Mario = () =>{
                     volte un peptide della proteina Tau,  responsabile dell’aggregazione di mielina nelle cellule nervose in malattie
                     come la sindrome di Alzheimer, per testare gli effetti di un farmaco bloccante tale processo, 
                     somministrato per via intranasale. </p>
-                  <p class='hidden md:inline'>Durante l’esperienza la sperimentazione del farmaco bloccante era giunta a un nuovo step, 
-                    ho avuto la possibilità di partecipare alle riunioni tra i ricercatori e direttori del dipartimento con una casa farmaceutica 
+                  <p class='hidden md:inline'>Durante l’esperienza la sperimentazione del farmaco bloccante era giunta a un nuovo step. 
+                    Ho avuto la possibilità di partecipare alle riunioni tra i ricercatori e direttori del dipartimento con una casa farmaceutica 
                     per l’organizzazione di una collaborazione volta alla produzione e la sperimentazione massiccia del farmaco per un futuro 
                     studio in vivo ed eventualmente clinico se il farmaco dovesse avere effetti positivi.  
                   </p>
@@ -149,7 +149,7 @@ const Mario = () =>{
             <div class=' row-span-1 '>
               <div class='p-4 md:p-12 lg:p-8 text-justify text-[1rem] md:text-[1.2rem]'>
                   <p class=''>Nelle ultime settimane ho avuto l'occasione di creare un database tramite MS Acess per
-                  l'archiviazione dei peptidi prodotti e segnalare la loro disponibilità in Istituto, l'esigenza era quella di 
+                  l'archiviazione dei peptidi prodotti e segnalare la loro disponibilità in Istituto. L'esigenza era quella di 
                   avere una piattaforma che fosse facilmente consultabile e aggiornabile, che potesse facilitare e 
                   incentivare i ricercatori alle collaborazioni con il dipartimento di chimica delle proteine. </p>
               </div>
@@ -171,7 +171,7 @@ const Mario = () =>{
                 <div class='p-4 md:p-12 lg:p-8'><span class=' bg-gray-500 font-bold '>Incontri formativi</span>
                 : circa tre volte a settimana, noi summer students ci riunivamo dopo la pausa pranzo, per l'appuntamento fisso in cui 
                   i ricercatori dell'Istituto hanno tenuto incontri su diversi argomenti come l'abuso di sostanze e i loro effetti sul corpo, 
-                  le malattie psichiatriche, la prevenzione e l'importanza della ricerca del cancro e delle malattie rare, biotecnologie 
+                  le malattie psichiatriche, la prevenzione e l'importanza della ricerca sul cancro e sulle malattie rare, biotecnologie 
                   e bioinformatica.
                 </div>
                 </div>
@@ -182,27 +182,27 @@ const Mario = () =>{
                   <div class='p-4 md:p-12 lg:p-8'>
                   <span class=' bg-gray-500 font-bold '>
                   Visita all'Innovation Center 3M a Milano</span>: il 4 Luglio abbiamo avuto l'opportunità di visitare l'headquarter italiano di una delle più
-                  grandi multinazionali americane che si occupa della produzione di dispositivi di protezione individuale, adesivi, abrasivi, pellicole rifrangenti;
-                  è stato molto interessante visitare una struttura privata in cui si investe moltissimo sulla ricerca e sulla sperimentazione di nuove tecniche
+                  grandi multinazionali americane che si occupa della produzione di dispositivi di protezione individuale, adesivi, abrasivi, pellicole rifrangenti.
                   di produzione e nuovi materiali.
+                  È stato molto interessante visitare una struttura privata in cui si investe moltissimo sulla ricerca e sulla sperimentazione di nuove tecniche
                   </div>
                 </div>
                 <div class='p-2 bg-black rounded-xl  lg:my-0 my-16 '>
                 <div>
                   <img src={silvio} alt='Group photo with silvio garattini' class='p-2 rounded-xl'></img>
                 </div>
-                <div class='p-4 md:p-12 lg:p-8'><span class=' bg-gray-500 font-bold '>Incontro con il fondatore dell'Istituto Silvio Garattini</span>: durante la permanenza in Istituto abbiamo incontrato il dr. Garattini, attuale presidente
-                  e fondatore del Mario Negri che ci ha spiegato la nascita e l'evoluzione dell'Istituto, il significato della ricerca e della politica di non-brevetto. 
+                <div class='p-4 md:p-12 lg:p-8'><span class=' bg-gray-500 font-bold '>Incontro con il fondatore dell'Istituto Silvio Garattini</span>: durante la permanenza nell'Istituto abbiamo incontrato il dr. Garattini, attuale presidente
+                  e fondatore del Mario Negri, che ci ha spiegato la nascita e l'evoluzione dell'Istituto, il significato della ricerca e della politica di non-brevetto. 
                   Successivamente abbiamo conosciuto l'attuale direttore dr. Giuseppe Remuzzi che ci ha illustrato il lavoro che viene svolto nella sede di Bergamo. 
                 </div>
                 </div>
                 <div class='p-2 bg-black rounded-xl  lg:my-0 mt-16 '>
                 <img src={topi} alt='mouse tests' class='p-2 rounded-xl '></img>
-                <div class='p-4 md:p-12 lg:p-8' ><span class=' bg-gray-500 font-bold '>Visita allo stabulario dell'Istituto</span>: dopo un incontro preparativo in cui 
-                ci hanno spiegato tutti i protocolli seguiti nella sperimentazione animale, abbiamo visitato lo stabulario, gli animali su cui si svolgono
-                le ricerche sono topi e ratti, è stato uno dei momenti più intensi e straordinari in Istituto, ho capito che ad ogggi la ricerca su modelli 
-                animali sia fondamentale e difficoltosa, ci vuole una grande responsabilità, tenendo sempre a mente la prima regola 
-                della sperimentazione cioè che l'animale deve, in qualsiasi caso, essere sottopposto alla minore sofferenza possibile. 
+                <div class='p-4 md:p-12 lg:p-8' ><span class=' bg-gray-500 font-bold '>Visita allo stabulario dell'Istituto</span>: dopo un incontro preparatorio in cui 
+                ci hanno spiegato tutti i protocolli seguiti nella sperimentazione animale, abbiamo visitato lo stabulario. Gli animali su cui si svolgono
+                le ricerche sono topi e ratti: è stato uno dei momenti più intensi e straordinari della mia esperienza. Ho capito che, ad oggi, la ricerca su modelli 
+                animali è fondamentale e difficoltosa. Responsabilità del ricercatore è di  tenere sempre a mente la prima regola 
+                della sperimentazione: l'animale deve, in qualsiasi caso, essere sottopposto alla minore sofferenza possibile. 
                 </div>
               </div>
                 
@@ -225,25 +225,27 @@ const Mario = () =>{
     <div>L'esperienza di alternanza è stata uno dei momenti più formativi della mia vita da studente e personale, ho capito 
       come funziona il lavoro di un ricercatore sotto tanti punti di vista, la dedizione e lo studio costante che richiede 
       questo mestiere che è un vero e proprio stile di vita. Ho appreso diversi protocolli di laboratorio e il funzionamento delle
-      apparecchiature di laboratorio, 
+      apparecchiature di laboratorio.
     </div>
     </div>
     <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl   '><span class=' bg-gray-500 font-bold '>Punti di debolezza</span>
       <div>Non ho individuato delle vere criticità nella mia esperienza, l'organizzazione è stata molto curata 
-        in tutte le attività svolte, la durata del progetto è lunga e viene svolto nel periodo estivo, inizialmente
-        questa idea mi ha intimorito pensando che sarebbe stato molto difficile e faticoso passare tutte le giornate in Istituto 
+        in tutte le attività svolte, il progetto dura a lungo e viene svolto nel periodo estivo. Inizialmente
+        questa idea mi aveva intimorito, pensavo che sarebbe stato molto difficile e faticoso passare tutte le giornate nell' Istituto 
         ma alla fine ne è valsa la pensa e lo rifarei certamente. 
       </div>
     </div>
     <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl   '><span class=' bg-gray-500 font-bold '>Ringraziamenti</span>
     <div>
       Ringrazio il mio tutor Mario Salmona per essere stato un vero maestro di vita con il suo forte entusiasmo anche dopo un'intera vita 
-      di ricerca  e la sua mente straordinaria, ha lasciato in me un ricordo indelebile. Ringrazio Alfredo Cagnotto, il mio tutor nel laboratorio 
+      di ricerca. La sua mente straordinaria ha lasciato in me un ricordo indelebile. Ringrazio Alfredo Cagnotto, il mio tutor nel laboratorio 
       di sintesi dei peptidi con cui ho passato la maggior parte del mio tempo, un grandissimo lavoratore sempre disponibile e attento a farmi capire 
-      tutti i dettagli del lavoro svolto assieme, Giulia Moscatiello, Jennifer Fernandez e Annalisa Morelli
-      le ricercatrici del laboratorio di Nanobiologia con cui ho avuto modo di imparare tantissimi protocolli e passare le giornate in Istituto, 
-      infine ringrazio i miei compagni summer students con cui si è creato un rapporto speciale come una vera e propria classe, ci siamo supportati
-      in tutto condividendo un'esperienza indimenticabile. 
+      tutti i dettagli del lavoro svolto assieme. Ringrazio Giulia Moscatiello, Jennifer Fernandez e Annalisa Morelli,
+      le ricercatrici del laboratorio di Nanobiologia con cui ho avuto modo di imparare tantissimi protocolli e trascorrere giornate indimenticabili. 
+      Ringrazio i miei compagni summer students con cui si è creato un rapporto speciale come in una vera e propria classe, ci siamo supportati
+      in tutto condividendo un'esperienza straordinaria e indimenticabile. Ringrazio, infine, la professoressa Francesca Lissoni grazie alla quale ho avuto
+      la possibilità di partecipare al progetto.
+      
     </div>
     </div>
     </div> 
