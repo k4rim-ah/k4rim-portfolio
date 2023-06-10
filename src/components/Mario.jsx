@@ -183,8 +183,8 @@ const Mario = () =>{
                   <span class=' bg-gray-500 font-bold '>
                   Visita all'Innovation Center 3M a Milano</span>: il 4 Luglio abbiamo avuto l'opportunità di visitare l'headquarter italiano di una delle più
                   grandi multinazionali americane che si occupa della produzione di dispositivi di protezione individuale, adesivi, abrasivi, pellicole rifrangenti.
-                  di produzione e nuovi materiali.
-                  È stato molto interessante visitare una struttura privata in cui si investe moltissimo sulla ricerca e sulla sperimentazione di nuove tecniche
+                  È stato molto interessante visitare una struttura privata in cui si investe moltissimo sulla ricerca e sulla sperimentazione di nuove 
+                  tecniche di produzione e nuovi materiali.
                   </div>
                 </div>
                 <div class='p-2 bg-black rounded-xl  lg:my-0 my-16 '>
@@ -201,7 +201,7 @@ const Mario = () =>{
                 <div class='p-4 md:p-12 lg:p-8' ><span class=' bg-gray-500 font-bold '>Visita allo stabulario dell'Istituto</span>: dopo un incontro preparatorio in cui 
                 ci hanno spiegato tutti i protocolli seguiti nella sperimentazione animale, abbiamo visitato lo stabulario. Gli animali su cui si svolgono
                 le ricerche sono topi e ratti: è stato uno dei momenti più intensi e straordinari della mia esperienza. Ho capito che, ad oggi, la ricerca su modelli 
-                animali è fondamentale e difficoltosa. Responsabilità del ricercatore è di  tenere sempre a mente la prima regola 
+                animali è fondamentale seppur difficoltosa. Responsabilità del ricercatore è di  tenere sempre a mente la prima regola 
                 della sperimentazione: l'animale deve, in qualsiasi caso, essere sottopposto alla minore sofferenza possibile. 
                 </div>
               </div>
@@ -222,9 +222,9 @@ const Mario = () =>{
   <div class='text-justify text-[1rem] md:text-[1.2rem]'>
    <div class='grid gap-6 lg:grid-cols-3 place-items-center '>
     <div class='p-4 md:p-12 lg:p-8 bg-black rounded-xl  '><span class=' bg-gray-500 font-bold '>Punti di forza</span>
-    <div>L'esperienza di alternanza è stata uno dei momenti più formativi della mia vita da studente e personale, ho capito 
+    <div>L'esperienza di alternanza è stata uno dei momenti più formativi dal punto di vista scolastico e personale, ho capito 
       come funziona il lavoro di un ricercatore sotto tanti punti di vista, la dedizione e lo studio costante che richiede 
-      questo mestiere che è un vero e proprio stile di vita. Ho appreso diversi protocolli di laboratorio e il funzionamento delle
+      questo mestiere che è un vero e proprio stile di vita. Ho appreso diversi protocolli e il funzionamento delle
       apparecchiature di laboratorio.
     </div>
     </div>

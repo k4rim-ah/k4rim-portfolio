@@ -2,6 +2,7 @@ import React from 'react';
 import '../index.css';
 import educivica from '../assets/extra/humanrights.pdf';
 import educivica2 from '../assets/extra/genderequality.pdf';
+import educivica3 from '../assets/extra/sport.pdf';
 import relaz from '../assets/extra/relazlab.pdf';
 import drugs from '../assets/extra/droghe.pdf';
 import ecstasy from '../assets/extra/ecstasy.pdf';
@@ -28,6 +29,9 @@ const Extra = () => {
                 </a>
                 <a href={educivica2} target='_blank' className=' flex p-4 bg-[#242424] rounded-lg hover:bg-[#b3b3b3] hover:text-black'>
                 Gender Equality
+                </a>
+                <a href={educivica3} target='_blank' className=' flex p-4 bg-[#242424] rounded-lg hover:bg-[#b3b3b3] hover:text-black'>
+                Sport e diritti
                 </a>
             <p class='font-bold text-3xl text-center py-3'>PCTO </p>
             <div class='grid grid-rows-2 gap-4'>
